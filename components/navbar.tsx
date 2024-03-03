@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <MotionTransition
       position="right"
-      className="absolute z-40 flex flex-col items-center justify-center w-full mt-auto h-max -bottom-10"
+      className=" fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-0"
     >
       <nav>
-        <div className=" box flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
+        <div className="box flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
